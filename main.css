@@ -1,0 +1,343 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-size: 250%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+h1{
+  text-align: center;
+  text-shadow: #e1306c;
+  color: #e1306c;
+  padding-top: 40px;
+}
+.nevigation-bar{
+    background: #5b0374;
+    text-align: center;
+    margin: 10px;
+}
+.nevigation-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color:rgb(255, 250, 251);
+    font-weight: bold;
+}
+.nevigation-bar ul li{
+    width: 180px;
+    margin: 15px;
+    padding: 15px;
+}
+.nevigation-bar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*a:hover{
+    color: rgb(184, 118, 184);
+}
+a:visited{
+    color: rgb(134, 10, 10);
+}*/
+.active, .nevigation-bar ul li:hover{
+    background: #551294;
+    border-radius: 3px;
+}
+.active:active{
+    background: #551294;
+}
+
+
+
+.store-img{
+    margin-left: 21%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.store-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+
+#first-img{
+    width: 90%;
+    position: relative;
+}
+.nav-two{
+    background-color: #930932;
+    width: 75%;
+    height: 150px;
+    margin-left: 12px;
+    border-radius: 60px;
+    margin-left: 12.5%;
+    margin-top: 20px;
+}
+.nav-two ul{
+    display: inline-flex;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.nav-two ul li{
+    padding: 20px;
+    color: black;
+}
+.nav-two ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-two ul li a:hover{
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, .6);
+}
+.six-para{
+    width: 75%;
+    text-align:justify;
+    margin-left: 12.5%;
+}
+.six-para h2{
+    color: rgb(126, 38, 38);
+    font-family: monospace;
+    font-size: 35px;
+    text-align: center;  
+    padding-bottom: 30px;
+    padding-top: 40px;  
+}
+.six-para p{
+    color: black;
+    font-family: Fixedsys;
+    font-size: 19px;
+    line-height: 1.8;
+}
+hr{
+    border: 2px solid rgb(126, 38, 38);
+    background-color: rgb(126, 38, 38);
+    margin-top: 7px;
+}
+h3{
+    color:rgb(126, 38, 38);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.fun-1, .fun-2, .fun-3, .fun-4, .fun-5{
+    width: 50%;
+    margin: 30px;
+    font-family: Fixedsys;
+    margin-left: 25%;
+}
+.fun-1, .fun-2, .fun-3, .fun-4, .fun-5 h3{
+    text-align: center;
+}
+.learnthrift-2 {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+.learnthrift-2 p{
+    margin-bottom: 30px;
+}
+#para-six{
+    text-align: center;
+}
+#para-six img{
+    border: 4px double brown;
+}
+#para-six h4{
+    font-size: 22px;
+    padding-bottom: 10px;
+    padding-top: 35px;
+}
+#para-six a{
+    color: #e1306c;
+    text-decoration: none;
+    font-weight: bold;
+}
+#para-six a:hover{
+    color: #930932;
+}
+    
+
+
+
+
+
+
+
+.main-info-end a{
+    color: white;
+    text-decoration: none;
+}
+.main-info-end a:hover{
+    color: #930932;
+}
+.hr1{
+    margin-top: 20px;
+    background: #5a5858;
+    color: black;
+}
+.main-info-end{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(90, 130, 216);
+    width: 100%;
+}
+.another-bg{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(90, 130, 216);
+    display: inline-flex;
+    width: 100%;
+}
+.subbg{
+    text-align: center;
+    margin-left: 5%;
+}
+.subbg h6{
+    font-size: 20px;
+    text-decoration: underline;
+    color:#99384c;
+}
+.subbg1{
+    text-align: center;
+    margin-left: 33%;
+    color: white;
+}
+.subbg1 h6{
+    font-size: 20px;
+    text-decoration: underline;
+    color:#99384c;
+}
+.subbg2{
+    text-align: center;
+    margin-left: 34%;
+    color: white;  
+    margin-right: 5%;
+}
+.subbg2 h6{
+    font-size: 20px;
+    text-decoration: underline;
+    color:#99384c;
+}
+
+.align-center{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+  display: inline-flex;
+}
+.wrapper .icon{
+  margin: 0 20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon span{
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon span i{
+  line-height: 60px;
+  font-size: 25px;
+}
+.wrapper .icon .tooltip{
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  color: #fff;
+  padding: 10px 18px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip{
+  top: -70px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.icon .tooltip:before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%) rotate(45deg);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover span{
+  color: #fff;
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip{
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip:before{
+  background: #3B5999;
+}
+.wrapper .twitter:hover span,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip:before{
+  background: #46C1F6;
+}
+.wrapper .instagram:hover span,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip:before{
+  background: #e1306c;
+}
+.wrapper .github:hover span,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip:before{
+  background: rgb(143, 35, 185);
+}
+.wrapper .youtube:hover span,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip:before{
+  background: #DE463B;
+}
+
+
+#but-but{
+    color: white;
+    font-weight: bold;
+}
+#but-but:hover{
+    box-shadow:3px 3px 0px rgb(232, 111, 145);
+}
